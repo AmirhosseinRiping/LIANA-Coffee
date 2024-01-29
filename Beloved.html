@@ -272,7 +272,7 @@
 						<h1 class="page_title text-white wow fadeInUp" data-wow-delay=".1s">رابط کاربری</h1>
 						<ul class="breadcrumb_nav ul_li wow fadeInUp" data-wow-delay=".2s">
 							<li><a href="index_1.html"><i class="fas fa-home"></i> خانه</a></li>
-							<li>خلاصه فعالیت ها</li>
+							<li>تغیر رمز عبور</li>
 						</ul>
 					</div>
 					<div class="breadcrumb_icon_wrap">
@@ -290,7 +290,7 @@
 				<!-- cart_section - start
         ================================================== -->
         <section class="row cart_section sec_ptb_120 bg_default_gray">
-            <div class="col-lg-3 d-lg-block  container container_boxed " style="border-radius: 10px; height: auto">
+            <div class="col-lg-3 d-lg-block d-sm-none container container_boxed " style="border-radius: 10px; height: 950px">
                 <div>
                     <div class="d-flex justify-content-center">
                         <img class="rounded-pill " style="width: 120px; height: 120px; padding: 5px; background-color: #c7a17a" src="assets/images/acconte/profile.svg" alt="" id="upload-imge">
@@ -303,20 +303,20 @@
                         <p class="me-4">۰۹۱۳۹۵۱۲۳۴۵</p>
                     </div>
 
-                    <ul class="filters-button-group ul_li_center wow fadeInUp flex-lg-column float-end gap-3 mt-3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <ul class="filters-button-group ul_li_center wow fadeInUp flex-column float-end gap-3 mt-3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <li><a class="button text-dark active" style="margin-left: 29px" href="activities.html" data-filter="*"><button><img src="assets/images/acconte/home.svg"></button>خلاصه فعالیت ها </a></li>
                         <li><a class="button text-dark" style="margin-left: 9px" href="profile.html" data-filter=".chocolate"> <button><img src="assets/images/acconte/profile2.svg"></button>اطلاعات حساب کاربری</a></li>
-                        <li><a class="button text-dark " style="margin-left: 47px" href="changepass.html" data-filter=".coffee"><button><img src="assets/images/acconte/pas.svg"></button>تغییر رمز عبور</a></li>
+                        <li><a class="button text-dark " style="margin-left: 47px" href="#" data-filter=".coffee"><button><img src="assets/images/acconte/pas.svg"></button>تغییر رمز عبور</a></li>
                         <li><a class="button text-dark" style="margin-left: 10px" href="Beloved.html" data-filter=".sandwiches"><button><img src="assets/images/acconte/love.svg"></button>محصولات مورد علاقه</a></li>
                         <li><a class="button text-dark" style="margin-left: 70px" href="#" data-filter=".sweets"><button><img src="assets/images/acconte/loc.svg"></button>آدرس ها</a></li>
                         <li><a class="button text-dark" style="margin-left: 25px" href="#" data-filter=".blacktea"><button><img src="assets/images/acconte/cart.svg"></button>تاریخچه سفارشات</a></li>
-                        <li><a class="button text-dark" style="margin-left: 70px;" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/money.svg"></button>کیف پول</a></li>
+                        <li><a class="button text-dark" style="margin-left: 70px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/money.svg"></button>کیف پول</a></li>
                         <li><a class="button text-dark" style="margin-left: 40px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/list.svg"></button>لیست مطالعه</a></li>
-                        <li><a class="button text-dark" style="margin-left: 35px;" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/logout.svg"></button>خروج از حساب</a></li>
+                        <li><a class="button text-dark" style="margin-left: 35px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/logout.svg"></button>خروج از حساب</a></li>
                     </ul>
                 </div>
             </div>
-        	<div class="col-8 container container_boxed mt-lg-0 mt-5" style="border-radius: 10px">
+        	<div class="col-8 container container_boxed" style="border-radius: 10px">
         		<div class="checkout_form">
 <!--        			<h2 class="form_title text-uppercase wow fadeInUp" data-wow-delay=".1s">روش پرداخت را انتخاب کنید</h2>-->
         			<form action="#">
@@ -326,86 +326,156 @@
 <!--        					<li class="me-4"><a href="checkout_step3.html">پرداخت نقدی هنگام تحویل</a></li>-->
 <!--        				</ul>-->
 
-                        <div class="row border-bottom mb-3" style="width: 200px">
-                            <h3 class=" text-uppercase wow fadeInUp mb-3">خلاصه فعالیت ها</h3>
-                        </div>
-                        <div class="row " style="width: 200px">
-                            <span class=" text-uppercase wow fadeInUp mb-5 fw-bolder" style="font-size: larger">سلام , محمد منتظری</span>
+                        <div class="row border-bottom mb-5" style="width: 250px">
+                            <h3 class=" text-uppercase wow fadeInUp mb-3">لیست علاقه‌مندی من</h3>
                         </div>
 
-                        <div class="row g-sm-4 g-3 d-flex justify-content-center" >
-                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
-
-                            <div class="totle-contain border border-3 d-flex justify-content-center" style="border-radius: 0 0 15px 15px">
-                                <div class="totle-detail">
-                                    <h5>سفارشات جاری</h5>
-                                    <h3 style="color: #c7a17a; margin-right: 40px">۶</h3>
+                        <div class="row gap-5 justify-content-center">
+                            <div class="col-lg-5 shop_card" >
+                                <a class="wishlist_btn" href="#!"><i class="fal fa-times"></i></a>
+                                <div class="share_btns">
+                                    <button type="button" class="share_btn">
+                                        <i class="fal fa-share-alt"></i>
+                                    </button>
+                                    <ul class="ul_li">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
-                            <div class="totle-contain border border-3 d-flex justify-content-center" style="border-radius: 0 0 15px 15px;">
-                                <div class="totle-detail">
-                                    <h5>سفارشات تکمیل شده</h5 >
-                                    <h3 style="color: #c7a17a; margin-right: 60px">۱۵</h3>
-                                </div>
-                            </div>
-                        </div>
-                            <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
-                                <div class="totle-contain border border-3 d-flex justify-content-center" style="border-radius: 0 0 15px 15px">
-                                    <div class="totle-detail">
-                                        <h5>سفارشات مرجوع شده</h5>
-                                        <h3 style="color: #c7a17a; margin-right: 70px">0</h3>
+                                <a class="item_image" href="shop_details.html">
+                                    <img src="assets/images/shop/img_03.png" alt="image_not_found">
+                                </a>
+                                <div class="item_content">
+                                    <h3 class="item_title text-uppercase">
+                                        <a href="shop_details.html">بسته سرخ کردنی هندی</a>
+                                    </h3>
+                                    <div class=" d-flex">
+                                        <div class="col-6">
+                                            <button class="btn btn_primary text-uppercase" style="width: 140px; height: 40px; margin-top: 10px">افزودن</button>
+                                        </div>
+                                        <div class="col-6 quantity_input quantity_boxs gap-2" style="width: 175px">
+                                            <h4 class="quantity_title text-uppercase">تعداد</h4>
+                                            <form action="#">
+                                                <button type="button" class="input_number_decrement me-1">–</button>
+                                                <input class="input_number" type="text" value="2">
+                                                <button type="button" class="input_number_increment">+</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-lg-5 shop_card">
+                                <a class="wishlist_btn" href="#!"><i class="fal fa-times"></i></a>
+                                <div class="share_btns">
+                                    <button type="button" class="share_btn">
+                                        <i class="fal fa-share-alt"></i>
+                                    </button>
+                                    <ul class="ul_li">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <a class="item_image" href="shop_details.html">
+                                    <img src="assets/images/shop/img_03.png" alt="image_not_found">
+                                </a>
+                                <div class="item_content">
+                                    <h3 class="item_title text-uppercase">
+                                        <a href="shop_details.html">بسته سرخ کردنی هندی</a>
+                                    </h3>
+                                    <div class=" d-flex">
+                                        <div class="col-6">
+                                            <button class="btn btn_primary text-uppercase" style="width: 140px; height: 40px; margin-top: 10px">افزودن</button>
+                                        </div>
+                                        <div class="col-6 quantity_input quantity_boxs gap-2" style="width: 175px">
+                                            <h4 class="quantity_title text-uppercase">تعداد</h4>
+                                            <form action="#">
+                                                <button type="button" class="input_number_decrement me-1">–</button>
+                                                <input class="input_number" type="text" value="2">
+                                                <button type="button" class="input_number_increment">+</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 shop_card" >
+                                <a class="wishlist_btn" href="#!"><i class="fal fa-times"></i></a>
+                                <div class="share_btns">
+                                    <button type="button" class="share_btn">
+                                        <i class="fal fa-share-alt"></i>
+                                    </button>
+                                    <ul class="ul_li">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                                <a class="item_image" href="shop_details.html">
+                                    <img src="assets/images/shop/img_03.png" alt="image_not_found">
+                                </a>
+                                <div class="item_content">
+                                    <h3 class="item_title text-uppercase">
+                                        <a href="shop_details.html">بسته سرخ کردنی هندی</a>
+                                    </h3>
+                                    <div class=" d-flex">
+                                        <div class="col-6">
+                                            <button class="btn btn_primary text-uppercase" style="width: 140px; height: 40px; margin-top: 10px">افزودن</button>
+                                        </div>
+                                        <div class="col-6 quantity_input quantity_boxs gap-2" style="width: 175px">
+                                            <h4 class="quantity_title text-uppercase">تعداد</h4>
+                                            <form action="#">
+                                                <button type="button" class="input_number_decrement me-1">–</button>
+                                                <input class="input_number" type="text" value="2">
+                                                <button type="button" class="input_number_increment">+</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
 
-                        <div class="row mt-5 gap-3">
-                            <h3>اطلاعات حساب کاربری</h3>
-                            <div class=" border-bottom" style="width: 450px">
-                                <div class="col-lg-6">
-                                    <h6 class="float-end">مشخصات من</h6>
-                                </div>
-                                <div class="col-lg-6 fw-bolder" style="margin-right: 390px">
-                                    <a href="profile.html" style=" color: #b4aab2">ویرایش</a>
-                                </div>
-                            </div>
-                            <div class=" border-bottom" style="width: 450px">
-                                <div class="col-lg-6">
-                                    <h6 class="float-end">خبرنامه</h6>
-                                </div>
-                                <div class="col-lg-6 fw-bolder" style="margin-right: 390px">
-                                    <a href="profile.html" style=" color: #b4aab2">ویرایش</a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="row mt-2 gap-3">
-                            <div  style="width: 450px">
-                                <div class="col-lg-6">
-                                    <p >محمد منتظری</p>
-                                </div>
-                                <a href="changepass.html" class="fw-bolder" style=" color: #b4aab2; font-size: medium" >تغییر رمز عبور</a>
 
-                            </div>
-                            <div  style="width: 450px">
-                                <div class="col-lg-6">
-                                    <p class="float-end">شما در حال حاضر عضو خبرنامه نیستید!</p>
-                                </div>
-                            </div>
-                        </div>
+<!--                        <div class="card" style="width: 18rem;">-->
+<!--                            <img src="assets/images/recent_post/img_05.jpg" style="width: 300px; height: 250px;" alt="image_not_found">-->
+<!--                            <div class="card-body">-->
+<!--                                <h5 class="card-title">چای سیاه</h5>-->
+<!--                                <p class="card-text">درد به خودی خود یک بار است و به دنبال آن آدیپیس خواهد بود</p>-->
+<!--                                <div class=" d-flex">-->
+<!--                                    <div class="col">-->
+<!--                                        <button class="btn btn_primary text-uppercase" >افزودن</button>-->
+<!--                                    </div>-->
+<!--                                    <div class="col quantity_input quantity_boxs">-->
+<!--                                        <h4 class="quantity_title text-uppercase">تعداد</h4>-->
+<!--                                        <form action="#">-->
+<!--                                            <button type="button" class="input_number_decrement me-1">–</button>-->
+<!--                                            <input class="input_number" type="text" value="2">-->
+<!--                                            <button type="button" class="input_number_increment">+</button>-->
+<!--                                        </form>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                            </div>-->
+<!--                        </div>-->
 
 
 <!--        				<div class="form_item wow fadeInUp" data-wow-delay=".4s">-->
 <!--        					<h4 class="form_field_title">اطلاعات تکمیلی :</h4>-->
 <!--        					<textarea name="message" placeholder="توجه داشته باشید در مورد سفارش خود، توجه ویژه برای تحویل!"></textarea>-->
 <!--        				</div>-->
+
         			</form>
-<!--        			<div  data-wow-delay=".5s">-->
-<!--                        <button class="btn btn_primary text-uppercase" href="checkout_step2.html" style="width: 200px">ویراش</button>-->
-<!--                        <button class="me-3 fw-bold" style="color: #c7a17a">حذف تصویر پروفایل</button>-->
-<!--                    </div>-->
         		</div>
         	</div>
         </section>

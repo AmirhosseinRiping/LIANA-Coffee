@@ -3078,6 +3078,29 @@ button {
   outline: none;
 }
 
+.quantity_boxs {
+  display: flex;
+  line-height: 1;
+  align-items: center;
+  padding: 18.5px 25px;
+  justify-content: center;
+}
+.quantity_boxs .quantity_title {
+  font-size: 14px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+.quantity_boxs input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+.quantity_boxs input:focus {
+  outline: none;
+}
+
 .details_wishlist_btn {
   margin-right: 50px;
   margin-bottom: 20px;
