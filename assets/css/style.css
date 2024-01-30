@@ -19,10 +19,17 @@ Author         :  Xpressrow
 /* global reset - start
 ================================================== */
 
+
 @font-face {
   font-family: Kook;
-  src: url("../fonts/Kook-Bold.ttf"),
-  url("../fonts/Kook-Medium.ttf");
+  src: url("../fonts/Kook-ExtraBold.ttf"),
+  url("../fonts/Kook-Bold.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Kook;
+  src: url("../fonts/Kook-Medium.ttf");
   font-weight: 700;
 }
 
@@ -142,7 +149,7 @@ button:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 900;
   color: #1B1B1B;
   font-family: "Kook", sans-serif;
 }
@@ -1313,7 +1320,7 @@ button {
   display: block;
   color: #999999;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 900;
   padding: 15px 0px;
   text-transform: uppercase;
   transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
@@ -1777,7 +1784,7 @@ button {
 }
 .slider_light .info_list .percentage_text {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 0px;
   color: #c7a17a;
 }
