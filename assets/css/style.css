@@ -4333,16 +4333,16 @@ blockquote i {
   .main_menu_inner .main_menu_list li.dropdown > a {
     position: relative;
   }
-  .main_menu_inner .main_menu_list li.dropdown > a:after {
-    top: 14px;
-    right: 20px;
-    line-height: 1;
-    margin-top: 0px;
-    content: "";
-    font-weight: 400;
-    position: absolute;
-    font-family: "Font Awesome 5 Pro";
-  }
+  /*.main_menu_inner .main_menu_list li.dropdown > a:after {*/
+  /*  top: 14px;*/
+  /*  right: 20px;*/
+  /*  line-height: 1;*/
+  /*  margin-top: 0px;*/
+  /*  content: "";*/
+  /*  font-weight: 400;*/
+  /*  position: absolute;*/
+  /*  font-family: "Font Awesome 5 Pro";*/
+  /*}*/
 
   .main_menu_list .submenu {
     min-width: 100%;
