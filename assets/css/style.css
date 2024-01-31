@@ -29,6 +29,12 @@ Author         :  Xpressrow
 
 @font-face {
   font-family: Kook;
+  src: url("../fonts/Kook-Bold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Kook;
   src: url("../fonts/Kook-Medium.ttf");
   font-weight: 700;
 }
@@ -324,7 +330,7 @@ button {
   line-height: 1;
   color: #ffffff;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
   padding: 21px 42px;
   border-radius: 5px;
   display: inline-block;
@@ -1077,10 +1083,10 @@ button {
 }
 .comment_item .comment_item {
   padding-top: 20px;
-  padding-left: 85px;
+  padding-right: 85px;
 }
 .comment_item .comment_thumbnail {
-  float: left;
+  float: right;
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -1092,6 +1098,7 @@ button {
   background-color: #f6f6f6;
 }
 .comment_item .comment_content {
+  margin-right: 103px;
   display: table;
   padding-top: 14px;
 }
@@ -1987,7 +1994,7 @@ button {
 }
 .about_image2 .year_content_wrap span {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 10px;
   color: #1B1B1B;
   font-family: "Kook", sans-serif;
@@ -1996,7 +2003,7 @@ button {
   color: #ffffff;
   line-height: 1;
   font-size: 126px;
-  font-weight: bold;
+  font-weight: 900;
   font-family: "Kook", sans-serif;
   text-shadow: 0px 15px 21px rgba(84, 49, 55, 0.25);
 }
@@ -2880,7 +2887,7 @@ button {
 .recent_post .item_title a {
   display: block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   color: #1B1B1B;
 }
 .recent_post:hover .item_title a {
@@ -3046,6 +3053,7 @@ button {
   margin-bottom: 30px;
 }
 .details_section .details_content p {
+  font-weight: 800;
   margin-bottom: 25px;
 }
 .details_section .btns_group {
@@ -3331,7 +3339,7 @@ blockquote i {
 .product_description_wrap .tabs_nav button {
   color: #969696;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
   position: relative;
   padding-bottom: 14px;
   text-transform: uppercase;
@@ -3514,7 +3522,7 @@ blockquote i {
 }
 .carttable_product_item .item_title {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 0px;
 }
 
@@ -3772,16 +3780,16 @@ blockquote i {
   display: block;
   font-size: 17px;
   font-weight: 500;
-  text-align: left;
+  text-align: right;
   position: relative;
   padding: 22px 30px;
-  padding-right: 65px;
+  padding-left: 65px;
   color: #1B1B1B;
   font-family: "Kook", sans-serif;
 }
 .faq_accordion .accordion-header button:after {
   top: 15px;
-  right: 15px;
+  left: 15px;
   width: 35px;
   height: 35px;
   display: flex;
@@ -3804,7 +3812,7 @@ blockquote i {
 }
 .faq_accordion .accordion-body {
   padding: 30px;
-  padding-right: 100px;
+  padding-left: 100px;
 }
 .faq_accordion p {
   font-size: 15px;
