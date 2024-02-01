@@ -2563,9 +2563,9 @@ button {
   background-size: 634px 100%;
   background-position: left center;
 }
-.testimonial_section.bg_gray {
-  background-color: #f6f6f6;
-}
+/*.testimonial_section.bg_gray {*/
+/*  background-color: #f6f6f6;*/
+/*}*/
 .testimonial_section .deco_item {
   overflow: hidden;
   position: absolute;
