@@ -991,7 +991,6 @@ button {
 }
 .filters-button-group.style_3 {
   background-color: #ffffff;
-  width: 700px;
   margin-left: 50px;
 }
 .filters-button-group.style_3 li {
@@ -1458,7 +1457,7 @@ button {
   margin-bottom: 15px;
 }
 .footer_opening_time span {
-  float: right;
+  float: left;
 }
 
 .copyright_text {
@@ -1911,6 +1910,7 @@ button {
   width: 25px;
   height: 25px;
   color: #22201d;
+  font-weight: 700;
   font-size: 13px;
   line-height: 25px;
   margin-left: 75px;
@@ -2423,7 +2423,7 @@ button {
   margin-bottom: 15.8px;
 }
 .opening_time span {
-  float: right;
+  float: left;
   color: #c7a17a;
 }
 
@@ -4265,6 +4265,7 @@ blockquote i {
 
   .feature_primary.box_style .item_serial {
     margin-left: 20px;
+    right: 86px;
   }
 
   /* home 3 - end */
