@@ -18,12 +18,7 @@
       $('.backtotop').stop(true, true).fadeOut();
     }
   });
-  $(function() {
-    $(".scroll").on('click', function() {
-      $("html,body").animate({scrollTop: 0}, "slow");
-      return false
-    });
-  });
+
   // back to top - end
   // --------------------------------------------------
 
@@ -409,3 +404,21 @@ $(function (){
     console.log(event);
   })
 })
+
+$(function() {
+  $(".scroll").on('click', function() {
+    $("html,body").animate({scrollTop: 0}, "slow");
+    return false
+  });
+});
+
+$(document).ready(function () {
+  remooveHeight()
+  // console.log("Selected", $('#myDiv').)
+});
+function remooveHeight(){
+  setTimeout(function(){
+    $('#myDiv').css("height", "700px");
+  }, 1000);
+
+}

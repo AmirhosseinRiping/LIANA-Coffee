@@ -5288,8 +5288,28 @@ blockquote i {
     font-size: 48px;
   }
 
+
+
   /* home 3 - end */
 }
+
+
+div.ex3 {
+  height: 400px;
+  overflow: auto;
+}
+
+/* Handle */
+div.ex3::-webkit-scrollbar-thumb {
+  background: #b4a08c;
+}
+
+div.ex3::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
 /* 8 - media screen and (max-width: 414px) - end
 ==================================================================================================== */
 /* 9 - media screen and (max-width: 320px) - start
