@@ -190,26 +190,27 @@
         <section class="contact_section sec_ptb_120 d-flex justify-content-center mt-3">
           <div class="row container" style="width: 1000px;">
 
-            <div class="col-lg-6 contact_form  wow fadeInUp d-flex align-items-center" data-wow-delay=".1s">
-              <form action="#" >
+            <div class="col-lg-6 contact_form  wow fadeInUp d-flex align-items-center flex-column" data-wow-delay=".1s">
+              <div class="row mt-3">
+                <h4 class="mb-3">تایید شماره موبایل</h4>
+                <p style="font-size: 20px">کد تایید ارسال شده لطفا موبایل خودرا چک کنید.</p>
+                <div class="d-flex justify-content-center">
+                  <div class="row">
+                    <div class="col">
+                      <button style="width: 80px; color: #c7a17a;"  id="startButton" onclick="startTimer()">ارسال مجدد</button>
+                    </div>
+                    <div class="col" id="timer"></div>
+
+                  </div>
+                </div>
+              </div>
+              <form action="#" class="mt-2" style="width: 370px">
                 <div class="row">
                   <div>
-                    <h4 class="mb-3">تایید شماره موبایل</h4>
-                    <p style="font-size: 20px">کد تایید ارسال شده لطفا موبایل خودرا چک کنید.</p>
                     <div class="form_item">
-
                       <label>
                         کد تایید :
                       </label>
-                      <div class="d-flex justify-content-center">
-                        <div class="row">
-                          <div class="col">
-                            <button style="width: 80px; color: #c7a17a;"  id="startButton" onclick="startTimer()">ارسال مجدد</button>
-                          </div>
-                          <div class="col" id="timer"></div>
-
-                        </div>
-                      </div>
                       <input type="tel" class="textinput textInput form-control" style="text-align: right" name="mobile_number" placeholder=": کدتایید را وارد کنید">
 
                     </div>
