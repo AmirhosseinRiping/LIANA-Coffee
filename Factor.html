@@ -36,6 +36,12 @@
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 
+		<script>
+			$( document ).ready(function() {
+				window.print()
+			});
+		</script>
+
 	</head>
 
 
@@ -167,7 +173,7 @@
 			<div class=" wow fadeInUp mt-3" data-wow-delay=".3s">
 				<div class=" d-flex">
 					<div class="col">
-						<h6>هزینه ارسال: </h6>
+						<h6>مبلغ پرداختی ارسال: </h6>
 					</div>
 					<div class="col d-flex justify-content-end" >
 						<P class="me-2">۴۲,۹۰۰ تومان</P>
@@ -177,7 +183,7 @@
 			</div>
 
 			<div class="row">
-				<button style="font-weight: 800; color: #c7a17a; border: 5px #c7a17a" onclick="window.print()">Print pdf</button>
+				<button style="font-weight: 800; border: 5px #c7a17a" onclick="window.print()"><img src="assets/images/acconte/print.svg"></button>
 			</div>
 
 		</div>
