@@ -530,7 +530,31 @@ function myFunction() {
 
   // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value);
-
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
+  Toastify({
+    text: "کدرهگیری با موفقیت کپی شد.",
+    duration: 3000,
+    className: "alert alert-success ",
+    destination: "https://github.com/apvarun/toastify-js",
+    newWindow: true,
+    close: true,
+    gravity: "bottom", // `top` or `bottom`
+    position: "right", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "#c7a17a",
+    },
+    onClick: function () {
+    } // Callback after click
+  }).showToast();
 }
+  // Alert the copied text
+  // alert("Copied the text: " + copyText.value);
+  // $.toast('Here you can put the text of the toast')
+//   $.toast({
+//     heading: 'کپی شد',
+//     text: '۲۳۴۰۹۰۰',
+//     showHideTransition: 'slide',
+//     position: 'bottom-center',
+//     icon: 'success'
+//   })
+// }
