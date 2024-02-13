@@ -501,3 +501,19 @@ function closeAllSelect(elmnt) {
 /*if the user clicks anywhere outside the select box,
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
+
+jalaliDatepicker.startWatch();
+jalaliDatepicker.startWatch(options);
+jalaliDatepicker.show(input);
+jalaliDatepicker.hide();
+jalaliDatepicker.updateOptions(options);
+
+jalaliDatepicker.startWatch({
+  dayRendering:function(dayOptions,input){
+    return {
+      isHollyDay: dayOptions.month==1 && dayOptions.day<=4,
+      // isValid = false, امکان غیر فعال کردن روز
+      // className = "nowruz" امکان افزودن کلاس برای درج استایل به روز
+    }
+  }
+})
