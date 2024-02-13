@@ -534,7 +534,7 @@ function myFunction() {
     text: "کدرهگیری با موفقیت کپی شد.",
     duration: 3000,
     className: "alert alert-success ",
-    destination: "https://github.com/apvarun/toastify-js",
+    // destination: "https://github.com/apvarun/toastify-js",
     newWindow: true,
     close: true,
     gravity: "bottom", // `top` or `bottom`
