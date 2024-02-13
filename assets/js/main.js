@@ -542,6 +542,8 @@ function myFunction() {
     stopOnFocus: true, // Prevents dismissing of toast on hover
     style: {
       background: "#c7a17a",
+      fontFamily: "kook",
+      fontWeight: "800"
     },
     onClick: function () {
     } // Callback after click
