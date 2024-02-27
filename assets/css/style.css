@@ -2828,10 +2828,11 @@ button {
   justify-content: space-between;
 }
 .shop_card .item_price {
+  width: auto;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
-  padding: 5px 28px;
+  padding: 5px 18px;
   border-radius: 3px;
   background-color: #c7a17a;
 }
@@ -5373,6 +5374,10 @@ div.ex3::-webkit-scrollbar {
 .select-items div:hover, .same-as-selected {
   background-color: #c7a17a;
   color: white;
+}
+
+.takhfif{
+  text-decoration: line-through;
 }
 
 
