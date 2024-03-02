@@ -722,7 +722,7 @@ button {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 15px;
-  color: #1B1B1B;
+  color: white;
   font-family: "Kook", sans-serif;
 }
 .form_item .form_field_title sup {
@@ -759,7 +759,7 @@ button {
 /* contact from - start */
 .contact_form {
   padding: 60px 50px;
-  background-color: #f6f6f6;
+  background-color: #353535;
 }
 .contact_form .form_title {
   line-height: 1;
@@ -767,8 +767,8 @@ button {
   margin-bottom: 35px;
 }
 .contact_form .form_item textarea, .contact_form .form_item input {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
+  background-color: #232323;
+  border: 1px solid #232323;
 }
 .contact_form .form_item textarea:focus, .contact_form .form_item input:focus {
   border-color: #c7a17a;
@@ -3118,6 +3118,8 @@ button {
   border-radius: 5px;
 }
 .quantity_boxs input {
+  background-color: #232323;
+  color: white;
   width: 30px;
   border: none;
   text-align: center;
@@ -3477,7 +3479,7 @@ blockquote i {
   display: flex;
   margin-top: 30px;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #353535;
 }
 .cart_table th, .cart_table td {
   border: none;
@@ -3489,6 +3491,7 @@ blockquote i {
   width: 20%;
 }
 .cart_table .quantity_input input {
+  color: white;
   width: 30px;
   border: none;
   text-align: center;
@@ -3508,7 +3511,7 @@ blockquote i {
   color: #c7a17a;
 }
 .cart_table .price_text2 {
-  color: #1B1B1B;
+  color: white;
 }
 
 .carttable_product_item {
@@ -3521,7 +3524,7 @@ blockquote i {
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  background-color: #f6f6f6;
+  background-color: #5F5F5F;
 }
 .carttable_product_item .item_image img {
   max-height: 50px;
@@ -3555,8 +3558,8 @@ blockquote i {
   align-items: center;
   padding: 22.5px 40px;
   display: inline-flex;
-  color: #1B1B1B;
-  background-color: #ffffff;
+  color: white;
+  /*background-color: #ffffff;*/
   justify-content: space-between;
 }
 
@@ -3723,8 +3726,13 @@ blockquote i {
   margin-bottom: 35px;
 }
 .checkout_form .form_item input, .checkout_form .form_item textarea {
+  color: #b49e9e;
   border-radius: 0px;
-  background-color: #f6f6f6;
+  background-color: #232323;
+}
+
+.onvan{
+  color: #363535;
 }
 
 .checkout_steps_nav {
@@ -3773,8 +3781,28 @@ blockquote i {
   color: #1B1B1B;
 }
 
-/* checkout section - end
-================================================== */
+
+.accordion-item:first-of-type .accordion-button{
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background-color: #5F5F5F;
+
+}
+
+.link{
+  color: white;
+}
+
+.link :hover{
+  color: #c7a17a;
+}
+
+.accordion-body{
+  padding: 1rem 1.25rem;
+  background-color: #5F5F5F;
+}
+  /* checkout section - end
+  ================================================== */
 /* faq page - start
 ================================================== */
 .faq_accordion .accordion-item {
