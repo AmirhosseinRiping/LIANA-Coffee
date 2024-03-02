@@ -3066,7 +3066,6 @@ button {
 }
 .details_section .btns_group {
   margin-bottom: 25px;
-  margin-right: 33px;
 }
 .details_section .btns_group li:not(:last-child) {
   margin-right: 15px;
@@ -3130,7 +3129,6 @@ button {
 }
 
 .details_wishlist_btn {
-  margin-right: 50px;
   margin-bottom: 20px;
   padding-bottom: 10px;
   color: #1B1B1B;
@@ -3143,10 +3141,15 @@ button {
   color: #c7a17a;
 }
 
-.details_share_links {
+@media (min-width: 768px)
+.me-md-0{
   margin-right: 50px;
-
 }
+
+/*.details_share_links {*/
+/*  margin-right: 50px;*/
+
+/*}*/
 .details_share_links .list_title {
   line-height: 1;
   font-size: 14px;
@@ -4745,6 +4748,7 @@ blockquote i {
   }
 
   .recipe_item {
+    padding: 30px;
     display: block;
   }
 
