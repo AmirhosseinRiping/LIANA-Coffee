@@ -3823,7 +3823,8 @@ blockquote i {
   position: relative;
   padding: 22px 30px;
   padding-left: 65px;
-  color: #1B1B1B;
+  color: white;
+  background-color: #5F5F5F;
   font-family: "Kook", sans-serif;
 }
 .faq_accordion .accordion-header button:after {
