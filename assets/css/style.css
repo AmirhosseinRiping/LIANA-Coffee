@@ -59,7 +59,7 @@ body {
   font-weight: 400;
   line-height: 1.65;
   font-style: normal;
-  color: #b9b4ae;
+  color: white;
   font-family: "Kook", serif;
   text-rendering: optimizelegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -1413,7 +1413,7 @@ button {
 }
 .footer_subscribe_form .form_title {
   line-height: 1;
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 50px;
 }
 .footer_subscribe_form .form_item input {
@@ -2001,7 +2001,7 @@ button {
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 10px;
-  color: #1B1B1B;
+  color: white;
   font-family: "Kook", sans-serif;
 }
 .about_image2 .year_content_wrap strong {
@@ -2022,6 +2022,7 @@ button {
   margin-bottom: 30px;
 }
 .about_content p {
+  color: white;
   margin-bottom: 30px;
 }
 .about_content .about_info {
@@ -2172,6 +2173,7 @@ button {
 }
 
 .recipe_item {
+  margin: 20px  30px  0 30px;
   display: flex;
   padding: 15px;
   border-radius: 5px;
@@ -4288,7 +4290,10 @@ blockquote i {
   }
 
   .recipe_item.style_3 {
-    width: 350px;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: auto;
     padding: 15px;
     border-radius: 5px;
     background-color: #232323;
@@ -5425,6 +5430,28 @@ div.ex3::-webkit-scrollbar {
 
 .takhfif{
   text-decoration: line-through;
+}
+
+.btn-panel{
+  border: 1px #c7a17a;
+  color: #c7a17a;
+}
+
+.btn-panel :hover :active{
+  background-color: #c7a17a !important;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-singup{
+  border: 1px #c7a17a;
+  color: #c7a17a;
+}
+
+.btn-singup :hover :active{
+  background-color: #c7a17a !important;
+  color: white;
+  text-decoration: none;
 }
 
 
