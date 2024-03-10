@@ -575,7 +575,7 @@ button {
   line-height: 37px;
   text-align: center;
   border-radius: 2px;
-  background-color: #cccccc;
+  background-color: black;
 }
 .social_icons a:hover {
   color: #ffffff;
@@ -842,7 +842,7 @@ button {
 .reserve_table_form .form_item input {
   height: 70px;
   background-color: #232323;
-  color: #9d9a9a;
+  color: #FFFFFF;
   padding: 0px 30px;
 }
 .reserve_table_form .form_item .form_icon {
@@ -911,9 +911,9 @@ button {
   font-size: 15px;
   border-radius: 45px;
   align-items: center;
-  color: #7c7770;
+  color: white;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: black;
 }
 .pagination_nav li:hover a, .pagination_nav li.active a {
   color: #ffffff;
@@ -1328,7 +1328,7 @@ button {
 }
 .main_menu_list > li > a {
   display: block;
-  color: #999999;
+  color: white;
   font-size: 14px;
   font-weight: 900;
   padding: 15px 0px;
@@ -1405,7 +1405,7 @@ button {
 
 .footer_bottom {
   padding: 13.5px 0px;
-  background-color: #f7f7f7;
+  background-color: #232323;
 }
 
 .footer_subscribe_form {
@@ -1464,9 +1464,9 @@ button {
   float: left;
 }
 
-.copyright_text {
-  color: #1B1B1B;
-}
+/*.copyright_text {*/
+/*  color: #1B1B1B;*/
+/*}*/
 .copyright_text a {
   color: #c7a17a;
 }
@@ -2168,6 +2168,7 @@ button {
   margin: -40px;
 }
 .recipe_item_grid .element-item {
+  /*margin-left:50px;*/
   width: 100%;
   padding: 10px;
 }
@@ -2224,7 +2225,7 @@ button {
   color: #c7a17a;
 }
 .recipe_item .item_price {
-  width: 300px;
+  width: auto;
   display: block;
   line-height: 1;
   font-size: 60px;
@@ -2552,7 +2553,7 @@ button {
   line-height: 1;
   font-size: 15px;
   padding: 8px 15px;
-  background-color: #cccccc;
+  background-color: black;
 }
 .shop_filter_tags a:hover {
   color: #ffffff;
@@ -2648,7 +2649,7 @@ button {
   margin-bottom: 30px;
 }
 .testimonial_item_1 p {
-  color: #7c7770;
+  color: white;
   font-size: 16px;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -2879,7 +2880,7 @@ button {
   overflow: hidden;
   border-radius: 3px;
   position: relative;
-  margin-right: 15px;
+  margin-right: unset;
 }
 .recent_post .item_image img {
   width: 100%;
@@ -2894,7 +2895,7 @@ button {
 }
 .recent_post .item_title a {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: white;
 }
@@ -2951,7 +2952,7 @@ button {
   transform: scale(1.08);
 }
 .blog_grid .item_content {
-  padding: 25px 5px 5px;
+  padding: 0 5px 5px;
 }
 .blog_grid .item_title {
   margin-bottom: 13px;
@@ -3002,6 +3003,7 @@ button {
   position: relative;
 }
 .blog_standard .item_image img {
+  max-height: 390px;
   width: 100%;
   display: block;
   transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
@@ -3328,6 +3330,11 @@ blockquote i {
 }
 .details_item_color .bg_brownlight input {
   background-color: #e9bc8d;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+  color: white;
+  filter: brightness(0) invert(1); ;
 }
 
 /* details content - end */
@@ -3793,11 +3800,11 @@ blockquote i {
 
 }
 
-.link{
+li .link{
   color: white;
 }
 
-.link :hover{
+li .link:hover{
   color: #c7a17a;
 }
 
@@ -4379,7 +4386,7 @@ blockquote i {
     display: block;
   }
   .main_menu_inner .main_menu_list li:not(:last-child) {
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #474747;
   }
   .main_menu_inner .main_menu_list li.dropdown > a {
     position: relative;
@@ -4434,6 +4441,11 @@ blockquote i {
     width: auto;
     height: auto;
     color: #ffffff;
+  }
+
+  .nav :focus{
+    border: black;
+
   }
 
   .header_section.style_3 .mobile_menu_btn .navbar-toggler-icon {
@@ -5394,7 +5406,7 @@ div.ex3::-webkit-scrollbar {
 
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
-  color: #9d9a9a;
+  color: white;
   background-color: #232323;
   font-family: Kook , sans-serif;
   font-weight: 800;
@@ -5404,6 +5416,12 @@ div.ex3::-webkit-scrollbar {
   cursor: pointer;
   user-select: none;
 }
+
+input::placeholder{
+  color: white;
+}
+
+input :la
 
 /*style items (options):*/
 .select-items {
@@ -5451,6 +5469,27 @@ div.ex3::-webkit-scrollbar {
   background-color: #c7a17a !important;
   color: white;
   text-decoration: none;
+}
+
+.jvab{
+  color: #606267;
+}
+
+.sidebarpanel {
+  flex: 0 0 200px;
+  flex-direction: column;
+  backdrop-filter: blur(30px) saturate(2);
+  -webkit-backdrop-filter: blur(30px) saturate(2);
+  padding-inline: 0;
+  padding-block: 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+  height: 100%;
+}
+
+.sidebarpanel.closed {
+  margin-left: -200px;
 }
 
 

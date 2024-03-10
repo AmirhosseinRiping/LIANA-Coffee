@@ -283,11 +283,11 @@
       max: 10000,
       values: [ 0, 4000.00 ],
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $( "#amount" ).val( "تومان" + ui.values[ 0 ] + " - تومان" + ui.values[ 1 ] );
       }
     });
-    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    $( "#amount" ).val( "تومان" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - تومان" + $( "#slider-range" ).slider( "values", 1 ) );
   }
 
   $('.ar_top').on('click', function () {
@@ -540,15 +540,19 @@ function myFunction() {
     gravity: "bottom", // `top` or `bottom`
     position: "right", // `left`, `center` or `right`
     stopOnFocus: true, // Prevents dismissing of toast on hover
-    style: {
-      background: "#c7a17a",
-      fontFamily: "kook",
-      fontWeight: "800"
-    },
+
     onClick: function () {
     } // Callback after click
   }).showToast();
 }
+
+var splide = new Splide( '.splide', {
+  type    : 'loop',
+  perPage : 2,
+  autoplay: true,
+} );
+
+splide.mount();
   // Alert the copied text
   // alert("Copied the text: " + copyText.value);
   // $.toast('Here you can put the text of the toast')
