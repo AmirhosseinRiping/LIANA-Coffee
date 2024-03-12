@@ -1168,7 +1168,7 @@ button {
   line-height: 1;
   align-items: center;
   padding: 17.5px 20px;
-  color: #7c7770;
+  color: white;
   background-color: #232323;
   justify-content: space-between;
 }
@@ -2225,13 +2225,14 @@ button {
   color: #c7a17a;
 }
 .recipe_item .item_price {
+  padding-right: 20px;
   width: auto;
   display: block;
   line-height: 1;
   font-size: 60px;
   color: #c7a17a;
   font-family: "Kook", sans-serif;
-  padding: 10px 55px 10px 70px;
+  padding: -5px 55px 10px 70px;
   border-right: 2px solid #eceae3;
 }
 .recipe_item .item_price sub {
@@ -4292,7 +4293,7 @@ li .link:hover{
   }
 
   .recipe_item.style_3 .content_col:last-child {
-    text-align: right;
+    text-align: left;
   }
 
   .recipe_item.style_3 {
@@ -4448,6 +4449,28 @@ li .link:hover{
 
   }
 
+  .sidebar {
+    flex: 0 0 200px;
+    flex-direction: column;
+    backdrop-filter: blur(30px) saturate(2);
+    -webkit-backdrop-filter: blur(30px) saturate(2);
+    padding-inline: 0;
+    padding-block: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 2.2s cubic-bezier(.36,-0.01,0,.77);
+    height: 100%;
+  }
+
+
+
+  .main {
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: auto;
+  }
+
   .header_section.style_3 .mobile_menu_btn .navbar-toggler-icon {
     color: #1B1B1B;
   }
@@ -4513,6 +4536,9 @@ li .link:hover{
 
   .slider_dark .btns_group {
     justify-content: center;
+  }
+  .btns_group{
+    display: flex;
   }
 
   .slider_dark .main_slider {

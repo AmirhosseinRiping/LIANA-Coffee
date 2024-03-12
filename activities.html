@@ -299,12 +299,12 @@
                         <img class="rounded-pill " style="width: 120px; height: 120px; padding: 5px; background-color: #c7a17a" src="assets/images/acconte/profile.svg" alt="" id="upload-imge">
 
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <label for="fileupload" class="d-flex justify-content-center" style="margin-left: 47px; margin-top: 10px">
-                            <input name="profile_img" id="fileupload" type="file" style="display: none;">
-                            <img class="btn btn-danger btn btn_primary text-uppercase d-flex align-items-center me-5 rounded-pill" src="assets/images/acconte/Group%2062.svg"  alt="Upload Image" style=" width: 55px; height: 25px; margin-left: 2px; margin-right:3px; padding: 5px;">
-                        </label>
-                    </div>
+<!--                    <div class="d-flex justify-content-center">-->
+<!--                        <label for="fileupload" class="d-flex justify-content-center" style="margin-left: 47px; margin-top: 10px">-->
+<!--                            <input name="profile_img" id="fileupload" type="file" style="display: none;">-->
+<!--                            <img class="btn btn-danger btn btn_primary text-uppercase d-flex align-items-center me-5 rounded-pill" src="assets/images/acconte/Group%2062.svg"  alt="Upload Image" style=" width: 55px; height: 25px; margin-left: 2px; margin-right:3px; padding: 5px;">-->
+<!--                        </label>-->
+<!--                    </div>-->
 
                     <div class="row mt-2 d-grid justify-content-center border-bottom">
                         <h4>محمد منتظری</h4>
@@ -325,38 +325,55 @@
                 </div>
             </div>
 
-            <div class="navbar-collapse collapse d-lg-none" id="navbarColor01" style="border-radius: 10px; height: 720px; position: absolute; right: 0; width: 300px; z-index: 2; background-color: #353535">
-                <div>
-                    <div class="d-flex justify-content-center">
-                        <img class="rounded-pill mt-2" style="width: 90px; height: 90px; padding: 5px; background-color: #c7a17a" src="assets/images/acconte/profile.svg" alt="" id="upload-imge">
+            <div class="modal  d-lg-none" id="myModal"  style=" width: 350px; right: 0; background-color: #353535">
+                <div class="modal-dialog">
+
+                    <!--                    <div class="d-flex justify-content-center ">-->
+                    <!--                        <label for="fileupload" class="d-flex justify-content-center" style="margin-left: 47px; margin-top: 10px">-->
+                    <!--                            <input name="profile_img" id="fileupload" type="file" style="display: none;">-->
+                    <!--                            <img class="btn btn-danger btn btn_primary text-uppercase d-flex align-items-center me-5 rounded-pill" src="assets/images/acconte/Group%2062.svg"  alt="Upload Image" style=" width: 30px; height: 15px; margin-left: 2px; margin-right:3px; padding: 2px;">-->
+                    <!--                        </label>-->
+                    <!--                    </div>-->
+
+
+                    <div class="modal-content " style="background-color: #353535; border: none">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <!--                            <button type="button" class="close_btn"></button>-->
+                            <button type="button" data-bs-dismiss="modal"><i class="fal fa-times"></i></button>
+
+
+                            <div class="d-flex justify-content-center">
+                                <img class="rounded-pill mt-2" style="width: 90px; height: 90px; padding: 5px; background-color: #c7a17a" src="assets/images/acconte/profile.svg" alt="" id="upload-imge">
+
+                            </div>
+
+                            <div class="row mt-2 d-grid justify-content-center  modal-header" style="border: none">
+                                <h4>محمد منتظری</h4>
+                                <p class="me-2">۰۹۱۳۹۵۱۲۳۴۵</p>
+                            </div>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <ul class="filters-button-group modal-body  fadeInUp flex-column float-end gap-3 mt-3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp; list-style: none;">
+                                <li><a class="button link " style="margin-left: 29px;" href="activities.html" data-filter="*"><button><img src="assets/images/acconte/home.svg"></button>خلاصه فعالیت ها </a></li>
+                                <li><a class="button link" style="margin-left: 9px;" href="profile.html" data-filter=".chocolate"> <button><img src="assets/images/acconte/profile2.svg"></button>اطلاعات حساب کاربری</a></li>
+                                <li><a class="button link " style="margin-left: 47px" href="changepass.html" data-filter=".coffee"><button><img src="assets/images/acconte/pas.svg"></button>تغییر رمز عبور</a></li>
+                                <li><a class="button link" style="margin-left: 10px" href="Beloved.html" data-filter=".sandwiches"><button><img src="assets/images/acconte/love.svg"></button>محصولات مورد علاقه</a></li>
+                                <li><a class="button link" style="margin-left: 70px" href="Address.html" data-filter=".sweets"><button><img src="assets/images/acconte/loc.svg"></button>آدرس ها</a></li>
+                                <li><a class="button link" style="margin-left: 25px" href="History.html" data-filter=".blacktea"><button><img src="assets/images/acconte/cart.svg"></button>تاریخچه سفارشات</a></li>
+                                <li><a class="button link" style="margin-left: 70px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/money.svg"></button>کیف پول</a></li>
+                                <li><a class="button link" style="margin-left: 40px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/list.svg"></button>لیست مطالعه</a></li>
+                                <li><a class="button link" style="margin-left: 35px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/logout.svg"></button>خروج از حساب</a></li>
+                            </ul>
+                        </div>
 
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <label for="fileupload" class="d-flex justify-content-center" style="margin-left: 47px; margin-top: 10px">
-                            <input name="profile_img" id="fileupload" type="file" style="display: none;">
-                            <img class="btn btn-danger btn btn_primary text-uppercase d-flex align-items-center me-5 rounded-pill" src="assets/images/acconte/Group%2062.svg"  alt="Upload Image" style=" width: 30px; height: 15px; margin-left: 2px; margin-right:3px; padding: 2px;">
-                        </label>
-                    </div>
-
-                    <div class="row mt-2 d-grid justify-content-center border-bottom">
-                        <h4>محمد منتظری</h4>
-                        <p class="me-4">۰۹۱۳۹۵۱۲۳۴۵</p>
-                    </div>
-
-                    <ul class="filters-button-group ul_li_center wow fadeInUp flex-column float-end gap-3 mt-3" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        <li><a class="button link " style="margin-left: 29px" href="activities.html" data-filter="*"><button><img src="assets/images/acconte/home.svg"></button>خلاصه فعالیت ها </a></li>
-                        <li><a class="button link" style="margin-left: 9px" href="profile.html" data-filter=".chocolate"> <button><img src="assets/images/acconte/profile2.svg"></button>اطلاعات حساب کاربری</a></li>
-                        <li><a class="button link " style="margin-left: 47px" href="changepass.html" data-filter=".coffee"><button><img src="assets/images/acconte/pas.svg"></button>تغییر رمز عبور</a></li>
-                        <li><a class="button link" style="margin-left: 10px" href="Beloved.html" data-filter=".sandwiches"><button><img src="assets/images/acconte/love.svg"></button>محصولات مورد علاقه</a></li>
-                        <li><a class="button link" style="margin-left: 70px" href="Address.html" data-filter=".sweets"><button><img src="assets/images/acconte/loc.svg"></button>آدرس ها</a></li>
-                        <li><a class="button link" style="margin-left: 25px" href="History.html" data-filter=".blacktea"><button><img src="assets/images/acconte/cart.svg"></button>تاریخچه سفارشات</a></li>
-                        <li><a class="button link" style="margin-left: 70px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/money.svg"></button>کیف پول</a></li>
-                        <li><a class="button link" style="margin-left: 40px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/list.svg"></button>لیست مطالعه</a></li>
-                        <li><a class="button link" style="margin-left: 35px" href="#" data-filter=".greantea"><button><img src="assets/images/acconte/logout.svg"></button>خروج از حساب</a></li>
-                    </ul>
                 </div>
             </div>
-        	<div class="col-8 container container_boxed  " style="border-radius: 10px">
+        	<div class="col-lg-8 col-11 container container_boxed  " style="border-radius: 10px">
         		<div class="checkout_form">
 <!--        			<h2 class="form_title text-uppercase wow fadeInUp" data-wow-delay=".1s">روش پرداخت را انتخاب کنید</h2>-->
         			<form action="#">
@@ -373,7 +390,8 @@
                                 <h3 class=" text-uppercase wow fadeInUp mb-3">خلاصه فعالیت ها</h3>
                             </div>
                             <div class="col-5">
-                                <button class="navbar-toggler  float-start collapsed mt-3 d-block d-lg-none" style="color: #cba783" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+
+                                <button type="button" class=" float-start collapsed mt-3 d-block d-lg-none " style="color: #cba783" data-bs-toggle="modal" data-bs-target="#myModal">
                                     <i class="fal fa-bars"></i>
                                 </button>
                             </div>

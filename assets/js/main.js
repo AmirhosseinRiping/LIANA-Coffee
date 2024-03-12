@@ -403,7 +403,15 @@ $(function (){
     $("#upload-imge").attr("src", x);
     console.log(event);
   })
-})
+});
+
+$(function (){
+  $("#fileupload-mobile").change(function (event) {
+    var x = URL.createObjectURL(event.target.files[0]);
+    $("#upload-imge-mobile").attr("src", x);
+    console.log(event);
+  })
+});
 
 $(function() {
   $(".scroll").on('click', function() {
