@@ -777,6 +777,7 @@ button {
   background-color: #353535;
 }
 .contact_form.bg_white .form_item textarea, .contact_form.bg_white .form_item input {
+  color: #FFFFFF;
   background-color: #232323;
   border: 1px solid #232323;
 }
@@ -876,6 +877,7 @@ button {
 /* comment form - start */
 .comment_form .form_item input,
 .comment_form .form_item textarea {
+  color: white;
   border-radius: 0px;
   background-color: #232323;
 }
@@ -1141,6 +1143,7 @@ button {
   margin-bottom: 30px;
 }
 .sb_widget .form_item input {
+  color: white;
   border-radius: 0px;
   background-color: #232323;
 }
