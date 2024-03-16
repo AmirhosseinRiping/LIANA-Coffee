@@ -777,7 +777,7 @@ button {
   background-color: #353535;
 }
 .contact_form.bg_white .form_item textarea, .contact_form.bg_white .form_item input {
-  color: #FFFFFF;
+  color: #eac9c9;
   background-color: #232323;
   border: 1px solid #232323;
 }
@@ -1483,7 +1483,7 @@ button {
   color: #ffffff;
 }
 .text-white .footer_subscribe_form .form_item input {
-  color: #ffffff;
+  color: #eac9c9;
   border-color: #1B1B1B;
   background-color: #1B1B1B;
 }
@@ -3111,11 +3111,10 @@ button {
 }
 
 .quantity_boxs {
+  margin-top: 20px;
   display: flex;
   line-height: 1;
   align-items: center;
-  padding: 18.5px 25px;
-  justify-content: center;
 }
 .quantity_boxs .quantity_title {
   font-size: 14px;
@@ -3741,7 +3740,7 @@ input[type="time"]::-webkit-calendar-picker-indicator{
   margin-bottom: 35px;
 }
 .checkout_form .form_item input, .checkout_form .form_item textarea {
-  color: #b49e9e;
+  color: #eac9c9;
   border-radius: 0px;
   background-color: #232323;
 }
@@ -4378,7 +4377,7 @@ li .link:hover{
     top: 76px;
     right: 0px;
     position: fixed;
-    background-color: #ffffff;
+    background-color: #232323;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
   }
   .main_menu_inner .main_menu_list {
@@ -4601,7 +4600,7 @@ li .link:hover{
 
   .about_image2 .leaf_image {
     bottom: 40px;
-    right: -60px;
+    right: -15px;
     max-width: 180px;
   }
 
@@ -5447,10 +5446,9 @@ div.ex3::-webkit-scrollbar {
 }
 
 input::placeholder{
-  color: white;
+  color: #9a9393;
 }
 
-input :la
 
 /*style items (options):*/
 .select-items {
