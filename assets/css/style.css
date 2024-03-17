@@ -2829,6 +2829,7 @@ button {
   color: #c7a17a;
 }
 .shop_card .btns_group {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
